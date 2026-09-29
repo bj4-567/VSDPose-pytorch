@@ -1,0 +1,12 @@
+tqdm
+json_tricks
+torch
+opencv_python
+prettytable
+scipy
+torchvision
+numpy
+matplotlib
+easydict
+PyYAML
+tensorboardX
