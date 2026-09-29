@@ -65,7 +65,7 @@ The model weights can be downloaded from [Google Drive](https://drive.google.com
 CMU Panoptic dataset
 
 ```
-python run/train_3d.py --cfg configs/panoptic/resnet50/prn64_cpn80x80x20_960x512_cam5.yaml
+python test/evaluate.py --cfg configs/panoptic/resnet50/prn64_cpn80x80x20_960x512_cam5.yaml
 ```
 
 Results
@@ -80,8 +80,8 @@ Results
 Shelf/Campus datasets
 
 ```
-python run/train_3d.py --cfg configs/shelf/prn64_cpn80x80x20_KD.yaml
-python run/train_3d.py --cfg configs/campus/prn64_cpn80x80x20_KD.yaml
+python test/evaluate.py --cfg configs/shelf/prn64_cpn80x80x20_KD.yaml
+python test/evaluate.py--cfg configs/campus/prn64_cpn80x80x20_KD.yaml
 ```
 
 ## Citation
